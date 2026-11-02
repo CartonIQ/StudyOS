@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wRoot" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center_vertical" android:padding="14dp"
+    android:background="@drawable/widget_bg">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="StudyOS" android:textColor="#D6AD55" android:textSize="12sp" android:textStyle="bold" />
+    <TextView android:id="@+id/wCounts" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Open StudyOS" android:textColor="#F5F7FA" android:textSize="15sp" android:textStyle="bold" />
+    <TextView android:id="@+id/wExam" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#B7C1D1" android:textSize="12sp" />
+</LinearLayout>
